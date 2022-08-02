@@ -1,9 +1,10 @@
 <template>
     <div id="app">
-        <div class="boxBoss">
+        <img src="@/assets/images/anni/2.jpg" alt="" />
+        <p>京ICP备2022013259号</p>
+        <!-- <div class="boxBoss">
             <Main :language="language" />
             <GameFeatures :language="language" />
-            <!-- <Swiper /> -->
             <div class="bottomWrap">
                 <div class="storeWrap">
                     <a href="https://apps.apple.com/us/app/kinja-run/id1625065102">
@@ -26,7 +27,7 @@
                     <div class="tips" v-html="textBottom"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -294,6 +295,11 @@ input,
 textarea {
     outline: none;
     border: none;
+}
+img {
+    margin-top: 200px;
+    width: 520px;
+    // height: 100%;
 }
 #app {
     .boxBoss {
